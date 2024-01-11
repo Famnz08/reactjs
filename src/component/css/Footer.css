@@ -1,0 +1,53 @@
+/* Footer.css */
+.footer {
+    background-color: #100f0f;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .social-media-icons,
+  .icons-text-container {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  .social-media-icons h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .icons-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .icons-container img {
+    width: 40px; /* Sesuaikan ukuran ikon sesuai keinginan Anda */
+    margin: 0 10px;
+  }
+  
+  .icons-text-container .contact-info h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+  
+  .icons-text-container .contact-info p {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 8px;
+  }
+  
+  .icons-text-container .contact-info a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .icons-text-container .contact-info a:hover {
+    text-decoration: underline;
+  }
+  

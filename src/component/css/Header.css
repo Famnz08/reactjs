@@ -1,0 +1,28 @@
+/* Header.css */
+.header {
+    background-color: #000000;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    max-width: 100px; /* Set the maximum width for your logo */
+  }
+  
+  .menu ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  .menu li {
+    margin-right: 15px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+  }
+  

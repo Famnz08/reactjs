@@ -1,0 +1,40 @@
+/* LandingPage.css */
+.landing-page {
+  height: 100vh; /* Make the landing page fill the entire viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../image/bg.jpg'); /* Replace with the actual path to your background image */
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center;
+  color: #fff;
+}
+
+.landing-content {
+  text-align: center;
+}
+
+.landing-content h2 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.landing-content p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: #4CAF50; /* Green background color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
